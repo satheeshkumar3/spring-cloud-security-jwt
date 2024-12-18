@@ -74,8 +74,8 @@ curl --location --request GET 'http://localhost:8080/bike' \
 ```shell
 [
     {
-        "carId": "1",
-        "carName": "RTR 160"
+        "bikeId": "1",
+        "bikeName": "RTR 160"
     }
 ]
 ```
