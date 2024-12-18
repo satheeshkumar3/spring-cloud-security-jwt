@@ -32,7 +32,7 @@ java -jar gateway-service/build/libs/gateway-service-0.0.1.jar
 java -jar auth-service/build/libs/auth-service-0.0.1.jar
 ```
 
-## Run Cars Service
+## Run bike Service
 ```shell
 java -jar bike-service/build/libs/bike-service-0.0.1.jar
 ```
@@ -58,7 +58,7 @@ curl --location --request POST 'http://localhost:8080/auth/register' \
 
 ### Execute Get Cars REST call without Authorization header
 ```shell
-curl --location --request GET 'http://localhost:8080/cars'
+curl --location --request GET 'http://localhost:8080/bike'
 ```
 
 ```shell
@@ -67,7 +67,7 @@ curl --location --request GET 'http://localhost:8080/cars'
 
 ### Execute Get Card REST call with Authorization header from step 1
 ```shell
-curl --location --request GET 'http://localhost:8080/cars' \
+curl --location --request GET 'http://localhost:8080/bike' \
 --header 'Authorization: <TOKEN>'
 ```
 
