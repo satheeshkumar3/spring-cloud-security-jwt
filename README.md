@@ -43,7 +43,7 @@ java -jar bike-service/build/libs/bike-service-0.0.1.jar
 curl --location --request POST 'http://localhost:8080/auth/register' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "email": "a@a.com",
+    "email": "sk@gmail.com",
     "password": "password",
     "name": "name"
 }'
@@ -75,7 +75,7 @@ curl --location --request GET 'http://localhost:8080/cars' \
 [
     {
         "carId": "1",
-        "carName": "Audi"
+        "carName": "RTR 160"
     }
 ]
 ```
